@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>ShinSoyul</title>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+    <link href="css/reset.css"rel="stylesheet" />
+    <link href="css/font-awesome.min.css"rel="stylesheet" />
+    <style>
+        html,body{height:100%;}
+        .title{font-family: 'Playfair Display SC', serif;}
+        body{font-family: 'Exo 2', sans-serif;}
+        .header{position:fixed; width:360px;height:100%;z-index:999;}
+        .top-hed{background-color:#f6eee3; height:80%;}
+        .top,.infor{width:200px;margin:auto;}
+        .top>a{padding:100px 0 60px;}
+        .top .gnb{}
+        .gnb li{}
+        .gnb li a{color:#2d2c2a; font-size:35px; padding:10px 0;margin:20px 0;}
+        .gnb li a:hover{color:#eb2c20; text-decoration:line-through}
+
+        .rod{float:right;padding-right:40px;margin-top:200px;}
+        .rod p{text-align:right;padding-bottom:5px;font-size:16px;}
+        .rod .rod-box{width:180px;height:10px;background-color:#2d2c2a;}
+        /*.rod-box:after{content:"";width:45px;height:inherit;background-color:#eb2c20;}
+        .rod:hover .rod-box:after{width:90px;height:inherit;background-color:#eb2c20;}*/
+
+        .bot-hed{background-color:#2d2c2a; width:inherit; height:20%; color:#fff;}
+        .infor{padding:40px;}
+        .infor p{font-size:12px;padding-top:50px;}
+        .brank{margin-right:20px;}
+        .infor p .brank:first-child{padding-right:20px;}
+
+
+
+        .main{  position:relative;
+                width:100%;
+                height:/*974px;왜 퍼센트로 하면 안먹히고 픽셀로 해야 먹힐까*/100%;
+                background-image:url("images/main01.jpg");
+                background-repeat:no-repeat;
+        }
+        .main p{ position:absolute; top:50%;
+                 font-size:50px; color:#f6eee3;
+                 z-index:99; left:50%; transform:translate(-50%,-50%);
+
+        }
+        .main p:before{content:""; background-color:#eb2c20; opacity:0.5; width:400px;height:80px;}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="top-hed">
+            <div class="top">
+                <a href="#" class="logo"><img src="common/logo.png" alt="logo" /></a>
+                <ul class="gnb">
+                    <li><a href="#" class="title">about</a></li>
+                    <li><a href="#" class="title">portfoilio</a></li>
+                    <li><a href="#" class="title">request</a></li>
+                </ul>
+            </div>
+            <div class="rod">
+                <p class="title">/four</p>
+                <div class="rod-box"></div>
+            </div>
+        </div>
+        <div class="bot-hed">
+            <div class="infor h-row">
+                <h3 class="title">Contact</h3>
+                <p>
+                    <span class="brank">Tel</span>010.7727.9512<br />
+                    <span class="brank">E-mail</span>minjs1125@gmail.com<br />
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <p class="title">Web Re:design</p>
+    </div>
+</body>
+</html>

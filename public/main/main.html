@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>soyul's portfoilio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <!--큰 css 적용 후 내 css를 적용하도록 밑에 위치-->
+    <link rel="stylesheet" href="../css/main.css">
+    <!--큰 css 적용 후 내 css를 적용하도록 밑에 위치-->
+
+    <!-- update the version number as needed -->
+    <!--defer = 모든것을 다 읽은 후 실행해 주세요!-->
+    <script defer src="/__/firebase/5.5.5/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/5.5.5/firebase-auth.js"></script>
+    <script defer src="/__/firebase/5.5.5/firebase-database.js"></script>
+    <script defer src="/__/firebase/5.5.5/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--큰영역 순서지키기-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="top-hed">
+            <div class="top">
+                <a href="../main/main.html" class="logo"><img src="../img/main/logo.png" alt="logo" /></a>
+                <div class="main_toggle">
+                    <span class="fa fa-bar"></span>
+                    <span class="fa fa-bar"></span>
+                    <span class="fa fa-bar"></span>
+                </div>
+                <ul class="gnb">
+                    <li><a href="../main/main2.html" class="title">about</a></li>
+                    <li class="portfoilio">
+                        <a href="#" class="title">portfoilio</a>
+                    </li>
+                    <li><a href="#" class="title">request</a></li>
+                </ul>
+            </div>
+            <div class="rod">
+                <p class="title">/four</p>
+                <div class="rod-box w3-bar w3-border">
+                    <!-- <a href="#" class="w3-button">&#10094; Previous</a>
+                    <a href="#" class="w3-button w3-right">Next &#10095;</a> -->
+                </div>
+            </div>
+        </div>
+        <div class="bot-hed">
+            <div class="infor h-row">
+                <div class="bot-box">
+                    <h3 class="title">Contact</h3>
+                    <p>
+                        <span class="brank">Tel</span>010.7727.9512<br />
+                        <span class="brank">E-mail</span>minjs1125@gmail.com<br />
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul class="port_menus">
+        <div>
+            <li class="port_menu title" data-src="../img/main/menu0.jpg"><a href="#">DANJI'S NAIL SHOP WEB RENEWAL</a></li>
+            <li class="port_menu title" data-src="../img/main/menu1.jpg"><a href="#">RICE MUSEUM WEB RENEWAL</a></li>
+            <li class="port_menu title" data-src="../img/main/menu2.jpg"><a href="#">YANKEE CANDLE WEB RENEWAL</a></li>
+            <li class="port_menu title" data-src="../img/main/menu3.jpg"><a href="#">SPEAKINGMAX WEB RENEWAL</a></li>
+            <li class="port_menu title" data-src="../img/main/menu4.jpg"><a href="#">DELONGHI WEB RENEWAL</a></li>
+            <li class="port_menu title" data-src="../img/main/menu5.jpg"><a href="#">LAGRILLIA WEB DESIGN</a></li>
+        </div>
+    </ul>
+    <div class="main_banners">
+        <ul class="slides">
+            <li class="slide">
+                <img src="../img/main/main01.jpg" class="img" data-name="1" data-link="#">
+                <p class="title">Web Re:design</p>
+            </li>
+            <li class="slide">
+                <img src="../img/main/main02.jpg" class="img" data-name="2" data-link="#">
+                <p class="title">Web Re:design</p>
+            </li>
+            <li class="slide">
+                <img src="../img/main/main03.jpg" class="img" data-name="3" data-link="#">
+                <p class="title">Web Re:design</p>
+            </li>
+            <li class="slide">
+                <img src="../img/main/main04.jpg" class="img" data-name="4" data-link="#">
+                <p class="title">Web Re:design</p>
+            </li>
+        </ul>
+    </div>
+    <script defer src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+    <script defer src="../js/slider.js"></script>
+    <script defer src="../js/main.js"></script>
+</body>
+
+</html>

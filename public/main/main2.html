@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>soyul's portfoilio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/main2.css">
+    <script src="/__/firebase/5.5.5/firebase-app.js"></script>
+    <script src="/__/firebase/5.5.5/firebase-auth.js"></script>
+    <script src="/__/firebase/5.5.5/firebase-database.js"></script>
+    <script src="/__/firebase/5.5.5/firebase-storage.js"></script>
+    <script src="/__/firebase/init.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="top-hed">
+            <div class="top">
+                <a href="../main/main.html" class="logo"><img src="../img/main/logo.png" alt="logo" /></a>
+                <div class="main_toggle">
+                    <span class="fa fa-bar"></span>
+                    <span class="fa fa-bar"></span>
+                    <span class="fa fa-bar"></span>
+                </div>
+                <ul class="gnb">
+                    <li><a href="#" class="title active">about</a></li>
+                    <li class="portfoilio">
+                        <a href="#" class="title">portfoilio</a>
+                    </li>
+                    <li><a href="#" class="title">request</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bot-hed">
+            <div class="infor h-row">
+                <div class="bot-box">
+                    <h3 class="title">Contact</h3>
+                    <p>
+                        <span class="brank">Tel</span>010.7727.9512<br />
+                        <span class="brank">E-mail</span>minjs1125@gmail.com<br />
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul class="port_menus">
+        <div>
+            <li class="port_menu title" data-src="../img/main/menu0.jpg"><a href="#">DANJI'S NAIL SHOP WEB RENEWAL</a></li>
+            <li class="port_menu title" data-src="../img/main/menu1.jpg"><a href="#">RICE MUSEUM WEB RENEWAL</a></li>
+            <li class="port_menu title" data-src="../img/main/menu2.jpg"><a href="#">YANKEE CANDLE WEB RENEWAL</a></li>
+            <li class="port_menu title" data-src="../img/main/menu3.jpg"><a href="#">SPEAKINGMAX WEB RENEWAL</a></li>
+            <li class="port_menu title" data-src="../img/main/menu4.jpg"><a href="#">DELONGHI WEB RENEWAL</a></li>
+            <li class="port_menu title" data-src="../img/main/menu5.jpg"><a href="#">LAGRILLIA WEB DESIGN</a></li>
+        </div>
+    </ul>
+    <div class="main_banners">
+        <div class="page">
+            <div class="onebox ani" data-ani="jquery" data-fn="oneBox()" data-chk="0">
+                <span class="title">Be Creative,</span>
+                <span>&</span>
+                <span class="title">Has Infinite Potentials.</span>
+                <span>Designer Shin Soyul</span>
+            </div>
+            <div class="one title onepage ani" data-ani="jquery" data-fn="oneNumber()" data-chk="0">1</div>
+            <div class="down">
+                <div class="d2013 clear">
+                    <div class="year">2013</div>
+                    <div class="txt">
+                        <span class="mon">02.</span>
+                        <span>한양사대부고 졸업</span>
+                    </div>
+                </div>
+                <div class="d2015 clear">
+                    <div class="year">2015</div>
+                    <div class="txt">
+                        <span class="mon">02.</span>
+                        <span>한성대학교 디자인아트</span>
+                        <span>평생교육원 입학</span>
+                        <span class="mon">08.</span>
+                        <span>CECA 안전공모전 수상</span>
+                        <span class="mon">12.</span>
+                        <span>VIVA 트리플 수상</span>
+                    </div>
+                </div>
+                <div class="d2016 clear">
+                    <div class="year">2016</div>
+                    <div class="txt">
+                        <span class="mon">08.</span>
+                        <span>동국제약</span>
+                        <span>UCC공모전 3위</span>
+                        <span class="mon">03.</span>
+                        <span>네이버 모두(Modoo)</span>
+                        <span>보조강사 활동</span>
+                    </div>
+                </div>
+            </div>
+            <div class="up">
+                <div class="d2017 clear">
+                    <div class="year">2017</div>
+                    <div class="txt">
+                        <span class="mon">04.</span>
+                        <span>동부여성발전센터</span>
+                        <span>리브랜딩 프로젝트</span>
+                    </div>
+                </div>
+                <div class="d2018 clear">
+                    <div class="year">2018</div>
+                    <div class="txt">
+                        <span class="mon">03.</span>
+                        <span>중소상공인희망재단</span>
+                        <span>보조강사 활동</span>
+                        <span class="mon">12.</span>
+                        <span>국가기간전략산업훈련</span>
+                        <span>웹 퍼블리셔과정 수료</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page">
+            <div class="twobox ani" data-ani="jquery" data-fn="twoBox()" data-chk="0">
+                <span class="title">Look my skills</span>
+                <span class="title">& many works</span>
+            </div>
+            <div class="num title ani" data-ani="jquery" data-fn="twoNumber()" data-chk="0">2</div>
+            <div class="skills ani" data-ani="jquery" data-chk="0" data-fn="twoSkill()">
+                <div class="skill">
+                    <div class="skilltxt">Photoshop</div>
+                    <div class="bars">
+                        <div class="bar" data-duration="300" data-percent="95"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skilltxt">Illustrator</div>
+                    <div class="bars">
+                        <div class="bar" data-duration="500" data-percent="98"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skilltxt">Html 5</div>
+                    <div class="bars">
+                        <div class="bar" data-duration="400" data-percent="90"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skilltxt">Css</div>
+                    <div class="bars">
+                        <div class="bar" data-duration="250" data-percent="86"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skilltxt">Javasprite</div>
+                    <div class="bars">
+                        <div class="bar" data-duration="600" data-percent="45"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skilltxt">Powerpoint</div>
+                    <div class="bars">
+                        <div class="bar" data-duration="800" data-percent="90"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skilltxt">Office</div>
+                    <div class="bars">
+                        <div class="bar" data-duration="300" data-percent="80"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page">
+            <div class="works">
+                <div class="work">
+                    <div class="print ani" data-ani="jquery" data-fn="threeCir()" data-chk="0">PRINT</div>
+                    <div class="digital ani" data-ani="jquery" data-fn="threeCir()" data-chk="0">DIGITAL</div>
+                </div>
+                <div class="worktxt">
+                    <div class="workwrap">
+                        <div class="workbox"></div>
+                        <div>Package</div>
+                    </div>
+                    <div class="workwrap">
+                        <div class="workbox"></div>
+                        <div>Edition</div>
+                    </div>
+                    <div class="workwrap">
+                        <div class="workbox"></div>
+                        <div>Branding</div>
+                    </div>
+                    <div class="workwrap">
+                        <div class="workbox"></div>
+                        <div>Logo Design</div>
+                    </div>
+                    <div class="workwrap">
+                        <div class="workbox"></div>
+                        <div>Typography</div>
+                    </div>
+                    <div class="workwrap">
+                        <div class="workbox"></div>
+                        <div>Web Design</div>
+                    </div>
+                    <div class="workwrap">
+                        <div class="workbox"></div>
+                        <div>App Design</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page">
+            <div class="num title">3</div>
+            <div class="bactxt">Contact me</div>
+            <div class="conttable">
+                <div class="contcell">
+                    <div>
+                        <h3 class="cont_title">Meet me</h3>
+                        <p>
+                            <span>서울시 동대문구</span>
+                            <span>Dongdaemon-gu, Seoul</span>
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="cont_title">Call me</h3>
+                        <p>010-7727-9512</p>
+                    </div>
+                    <div>
+                        <h3 class="cont_title">Sand me</h3>
+                        <p>
+                            <span>minjs1217@naver.com</span>
+                            <span>minjs1125@gmail.com</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+    <script src="../js/slider.js"></script>
+    <script src="../js/SpaAni.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/main2.js"></script>
+</body>
+
+</html>
